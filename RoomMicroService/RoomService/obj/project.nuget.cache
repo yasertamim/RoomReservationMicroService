@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OIrTxXtja+Hap31feG+x+v+ZtcHDl8h0SOQtdsuf7x1JWBpXYl5r6AHFQcY4pmJ/Dy4qVqB04+KKzZMp49AD3Q==",
+  "dgSpecHash": "KOFFthd4Hb0NG8vaW7kc+ALjITUqGQLlJdk3W28E/MrUPlPQ6dEMYHgh8BYC5/f2ZmQDK65Se3HoE+4a5caPSA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\black\\Desktop\\un\\.Net\\MyMicroservice\\RoomMicroService\\RoomService\\RoomApi.csproj",
+  "projectFilePath": "C:\\Users\\black\\Desktop\\un\\.Net\\MyMicroservice\\roombooking\\RoomMicroService\\RoomService\\RoomApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\black\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\black\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
