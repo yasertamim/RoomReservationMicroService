@@ -36,7 +36,9 @@ namespace CustomerApi.Services
             await _context.Customers.AddAsync(customer);
             await _context.SaveChangesAsync();
 
+            // add connection string for Azure service bus
             string connectionString = "<connection_string>";
+            // add queue name
             string queueName = "<queue_name>";
             // since ServiceBusClient implements IAsyncDisposable we create it with "await using"
             await using var client = new ServiceBusClient(connectionString);

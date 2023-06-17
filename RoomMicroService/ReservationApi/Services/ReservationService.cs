@@ -19,8 +19,11 @@ namespace ReservationApi.Services
         }
         public async Task<List<Reservation>> GetAllReservations()
         {
-            string connectionString = "Endpoint=sb://roomreservations.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=DC/q0gglVGGyJWe43bpuKCw/unuvd0YWU+ASbJ+hKNs=";
-            string queueName = "roombooking";
+            // add connection string for Azure service bus
+            string connectionString = "<connection_string>";
+
+            // add queue name
+            string queueName = "<queue_name>";
             // since ServiceBusClient implements IAsyncDisposable we create it with "await using"
             await using var client = new ServiceBusClient(connectionString);
 
