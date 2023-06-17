@@ -36,8 +36,8 @@ namespace CustomerApi.Services
             await _context.Customers.AddAsync(customer);
             await _context.SaveChangesAsync();
 
-            string connectionString = "Endpoint=sb://roomreservations.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=DC/q0gglVGGyJWe43bpuKCw/unuvd0YWU+ASbJ+hKNs=";
-            string queueName = "roombooking";
+            string connectionString = "<connection_string>";
+            string queueName = "<queue_name>";
             // since ServiceBusClient implements IAsyncDisposable we create it with "await using"
             await using var client = new ServiceBusClient(connectionString);
 

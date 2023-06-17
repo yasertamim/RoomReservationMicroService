@@ -28,8 +28,14 @@ namespace ReservationApi.Services
 
             IReadOnlyList<ServiceBusReceivedMessage> receivedMessages = await receiver.ReceiveMessagesAsync(10);
 
+
+            var reservationsInDb = await _context.Reservations.ToListAsync();
             if (receivedMessages == null)
             {
+            
+                if (reservationsInDb != null) { 
+                    return reservationsInDb;
+                }
                 return null;
             }
 

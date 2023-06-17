@@ -25,3 +25,11 @@ C:\Users\black\Desktop\un\.Net\MyMicroservice\roombooking\RoomMicroService\ApiGa
 C:\Users\black\Desktop\un\.Net\MyMicroservice\roombooking\RoomMicroService\ApiGateWay\obj\Debug\net6.0\ApiGateWay.pdb
 C:\Users\black\Desktop\un\.Net\MyMicroservice\roombooking\RoomMicroService\ApiGateWay\obj\Debug\net6.0\ApiGateWay.genruntimeconfig.cache
 C:\Users\black\Desktop\un\.Net\MyMicroservice\roombooking\RoomMicroService\ApiGateWay\obj\Debug\net6.0\ref\ApiGateWay.dll
+C:\Users\black\Desktop\un\.Net\MyMicroservice\roombooking\RoomMicroService\ApiGateWay\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\black\Desktop\un\.Net\MyMicroservice\roombooking\RoomMicroService\ApiGateWay\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\black\Desktop\un\.Net\MyMicroservice\roombooking\RoomMicroService\ApiGateWay\bin\Debug\net6.0\Microsoft.AspNetCore.MiddlewareAnalysis.dll
+C:\Users\black\Desktop\un\.Net\MyMicroservice\roombooking\RoomMicroService\ApiGateWay\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\black\Desktop\un\.Net\MyMicroservice\roombooking\RoomMicroService\ApiGateWay\bin\Debug\net6.0\Microsoft.Extensions.DiagnosticAdapter.dll
+C:\Users\black\Desktop\un\.Net\MyMicroservice\roombooking\RoomMicroService\ApiGateWay\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\black\Desktop\un\.Net\MyMicroservice\roombooking\RoomMicroService\ApiGateWay\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\black\Desktop\un\.Net\MyMicroservice\roombooking\RoomMicroService\ApiGateWay\bin\Debug\net6.0\Ocelot.dll
