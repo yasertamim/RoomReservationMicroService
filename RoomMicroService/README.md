@@ -11,14 +11,12 @@ The CustomerService manages customer information and provides endpoints for cust
 - GET /customers - Retrieves a list of all customers.
 - GET /customers/{id} - Retrieves details of a specific customer.
 - POST /customers - Creates a new customer.
-- PUT /customers/{id} - Updates an existing customer.
-- DELETE /customers/{id} - Deletes a customer.
+
 
 ### ReservationService
 The BookingService manages the booking process. When a customer books a room, a message is sent to Azure Bus Queue for further processing.
 
 #### API Endpoints
-- POST /bookings - Creates a new booking.
 - GET /bookings - Retrieves a list of all bookings.
 
 ### RoomService
